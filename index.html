@@ -35,24 +35,31 @@
             computerChoice = computerPlay();
             if (humanChoice === computerChoice) {
                 return `Human: ${humanChoice}<br> Robot: ${computerChoice}<br>
+                <br>
                  TIE GAME- HUMAN CHEATING SUSPECTED - D E S T R O Y`
             } else if (humanChoice === "ROCK" && computerChoice === "SCISSORS") {
                 return `Human: ${humanChoice} <br> Robot: ${computerChoice} <br>
+                <br>
                  HUMAN WINS - CHEATER - D E S T R O Y`
             } else if (humanChoice === "ROCK" && computerChoice === "PAPER") {
                 return `Human: ${humanChoice}<br> Robot: ${computerChoice}<br>
+                <br>
                  HUMAN LOSES - GO HOME LOSER - HA. HA. HA.`
             } else if (humanChoice === "PAPER" && computerChoice === "ROCK") {
                 return `Human: ${humanChoice}<br> Robot: ${computerChoice}<br>
+                <br>
                  HUMAN WINS - CHEATER - D E S T R O Y`
             } else if (humanChoice === "PAPER" && computerChoice === "SCISSORS") {
                 return `Human: ${humanChoice}<br> Robot: ${computerChoice}<br>
+                <br>
                  HUMAN LOSES - GO HOME LOSER - HA. HA. HA.`
             } else if (humanChoice === "SCISSORS" && computerChoice === "PAPER"){
                 return `Human: ${humanChoice}<br> Robot: ${computerChoice}<br>
+                <br>
                  HUMAN WINS - CHEATER - D E S T R O Y`
             } else if (humanChoice === "SCISSORS" && computerChoice === "ROCK"){
                 return `Human: ${humanChoice}<br> Robot: ${computerChoice}<br>
+                <br>
                  HUMAN LOSES  - GO HOME LOSER - HA. HA. HA.`
             } else {
                 return "E R R O R"
